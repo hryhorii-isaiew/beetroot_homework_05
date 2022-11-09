@@ -1,17 +1,44 @@
-.navigation{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 40px;
-    width: 496px;
-    height: 30px;
-    padding-left: 472px;
-    padding-top: 25px;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
-    Top: 25px;
-    Left: 472px;
-    Gap: 40px;
-    }
+.body {
+display: flex;
+justify-content: center;
+margin: 0px;
+background-color: rgb(180, 180, 180);
+}
+.container {
+width: 1440px;
+background-color: rgb(255, 255, 255);
+}
+.navigation {
+display: flex;
+justify-content: center;
+margin-left: 235px;
+width: 970px;
+height: 80px;
+border-bottom: 1px solid rgb(190, 190, 190);
+}
+.nav-menu {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 27px;
+margin-bottom: 27px;
+font-family: 'Open Sans';
+font-style: normal;
+}
+.first {
+width: 300px;
+height: 60px;
+margin-top: 12px;
+margin-bottom: 50px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 65px;
+}
+.Denis {
+width: 970px;
+height: 387px;
+padding-left: 235px;
+order: 1;
+object-position: 0 -468px;
+}

@@ -15,63 +15,66 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About me">About me</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contacts">Contacts</a></li>
+        <div class="container">
+        <nav class="navigation">
+            <ul>
+                <a class="nav-menu"  href="#Home">Home</a>
+                <a class="nav-menu"  href="#About me">About me</a>
+                <a class="nav-menu"  href="#Skills">Skills</a>
+                <a class="nav-menu"  href="#Portfolio">Portfolio</a>
+                <a class="nav-menu"  href="#Contacts">Contacts</a>
             </ul>
         </nav>
-    </header>
+        </header>
 
-    <section id="Home">
-        <h1>Denis Novik</h1>
-        <img src="./images/photo.png" alt="Denis">
+        <section id="Home" class="home">
+            <h1 class="first">Denis Novik</h1>
+            <img src="./images/photo.png" alt="Denis" class="Denis">
+            
+            <h2 class="About me">About Me</h2>
+            <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
+            I'm interested in design and everything connected with it.</p>
+            <p>I'm studying at courses "Web and mobile design<br>
+            interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects<br>
+            with wonderful people.</p>
+        </section>
+
+        <section id="Skills">
+            <h2>Skills</h2>
+            <p>I work in such programs as</p>
+            <img src="./images/Ps.svg" alt="adobe_photoshop">
+            <img src="./images/Ai.svg" alt="adobe_illustrator">
+            <img src="./images/AF.svg" alt="adobe_after_effect">
+            <img src="./images/Figma.svg" alt="Figma">
+        </section>
+
+        <section id="Portfolio">
+            <h2>Portfolio</h2>
+            <img src="./images/Fashion-Store.png" alt="Fashion-Store">
+            <p>Online fashion store - <br>
+            Homepage</p>
+            <img src="./images/reebok_web.png" alt="reebok_web">
+            <p>Reebok Store - Concept</p>
+            <img src="./images/braun-landing.png" alt="braun-landing">
+            <p>Braun Landing Page - Concept</p>
+        </section>
+
+        <section id="Contacts">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat? <br>
+            You are welcome!</p>
+            <button class="button">Send message</button>
         
-        <h2 class="About me">About Me</h2>
-        <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
-        I'm interested in design and everything connected with it.</p>
-        <p>I'm studying at courses "Web and mobile design<br>
-        interfaces" in IT-Academy.</p>
-        <p>Ready to implement excellent projects<br>
-        with wonderful people.</p>
-    </section>
-
-    <section id="Skills">
-        <h2>Skills</h2>
-        <p>I work in such programs as</p>
-        <img src="./images/Ps.svg" alt="adobe_photoshop">
-        <img src="./images/Ai.svg" alt="adobe_illustrator">
-        <img src="./images/AF.svg" alt="adobe_after_effect">
-        <img src="./images/Figma.svg" alt="Figma">
-    </section>
-
-    <section id="Portfolio">
-        <h2>Portfolio</h2>
-        <img src="./images/Fashion-Store.png" alt="Fashion-Store">
-        <p>Online fashion store - <br>
-        Homepage</p>
-        <img src="./images/reebok_web.png" alt="reebok_web">
-        <p>Reebok Store - Concept</p>
-        <img src="./images/braun-landing.png" alt="braun-landing">
-        <p>Braun Landing Page - Concept</p>
-    </section>
-
-    <section id="Contacts">
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat? <br>
-        You are welcome!</p>
-        <button class="button">Send message</button>
-        <img src="./images/linkedin.svg" alt="linkedin">
-        <img src="./images/instagram.svg" alt="instagram">
-        <img src="./images/behance.svg" alt="behance">
-        <img src="./images/dribbble.svg" alt="dribbble">
-    </section>
+            <img src="./images/linkedin.svg" alt="linkedin">
+            <img src="./images/instagram.svg" alt="instagram">
+            <img src="./images/behance.svg" alt="behance">
+            <img src="./images/dribbble.svg" alt="dribbble">
+        </section>
+        </div>
 
     <footer>
-        <p class="end">Like me on <br>
+        <p>Like me on <br>
             LinkedIn, Instagram, Behance, <br>
             Dribble</p>
     </footer>
