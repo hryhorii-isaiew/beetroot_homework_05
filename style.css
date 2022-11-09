@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 496px;
+    height: 30px;
+    padding-left: 472px;
+    padding-top: 25px;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+    Top: 25px;
+    Left: 472px;
+    Gap: 40px;
+    }
