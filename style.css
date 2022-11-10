@@ -2,11 +2,12 @@
 display: flex;
 justify-content: center;
 margin: 0px;
-background-color: rgb(180, 180, 180);
+background-color: #b4b4b4;
 }
 .container {
 width: 1440px;
-background-color: rgb(255, 255, 255);
+padding-left: 58px;
+background-color: #ffffff;
 }
 .navigation {
 display: flex;
@@ -14,7 +15,7 @@ justify-content: center;
 margin-left: 235px;
 width: 970px;
 height: 80px;
-border-bottom: 1px solid rgb(190, 190, 190);
+border-bottom: 1px solid #bebebe;
 }
 .nav-menu {
 margin-left: 20px;
@@ -23,10 +24,13 @@ margin-top: 27px;
 margin-bottom: 27px;
 font-family: 'Open Sans';
 font-style: normal;
+text-decoration: none;
+color:#828282;
 }
 .first {
 width: 300px;
 height: 60px;
+margin-left: 287px;
 margin-top: 12px;
 margin-bottom: 50px;
 font-family: 'Open Sans';
@@ -38,7 +42,129 @@ line-height: 65px;
 .Denis {
 width: 970px;
 height: 387px;
-padding-left: 235px;
-order: 1;
+padding-left: 294px;
+object-fit: cover;
 object-position: 0 -468px;
+}
+.Font {
+background-color: #E5E5E5;
+padding: 100px 480px;
+}
+.About_me {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+}
+.about {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+}
+.skill {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+}
+.work {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+}
+.skillbox {
+display: flex;
+padding-left: 302px;
+}
+.skillimg {
+width: 170px;
+height: 230px;
+margin-left: 0px;
+margin-right: 97px;
+margin-top: 50px;
+margin-bottom: 100px;
+}
+.portfolio {
+background-color: #E5E5E5;
+}
+.portfolio_head {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+}
+.my_work {
+width: 970px;
+height: 540px;
+margin-left: 305px;
+}
+.work_text {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+}
+.contacts_head {
+font-family: 'Open Sans';
+font-size: 34px;
+text-align: center;
+}
+.chat {
+font-family: 'Open Sans';
+font-size: 18px;
+text-align: center;
+}
+.button {
+display: flex;
+margin-left: 697px;
+margin-top: 60px;
+width: 180px;
+height: 44px;
+background: #070707;
+border-radius: 22px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+}
+.send {
+display: flex;
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 17px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+.soc {
+display: flex;
+padding-top: 29px;
+padding-left: 579px;
+padding-right: 570px;
+height: 40px;
+}
+.social {
+width: 310px;
+height: 40px;
+}
+.like {
+font-family: 'Open Sans';
+font-size: 14px;
+text-align: center;
+color: #828282;
+padding-top: 40px;
 }
