@@ -5,9 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
     
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <header>
+        <div class="container">
+        <nav class="navigation">
+            <ul>
+                <a class="nav-menu"  href="#Home">Home</a>
+                <a class="nav-menu"  href="#About me">About me</a>
+                <a class="nav-menu"  href="#Skills">Skills</a>
+                <a class="nav-menu"  href="#Portfolio">Portfolio</a>
+                <a class="nav-menu"  href="#Contacts">Contacts</a>
+            </ul>
+        </nav>
+        </header>
+
+        <section id="Home" class="home">
+            <h1 class="first">Denis Novik</h1>
+            <img src="./images/photo.png" alt="Denis" class="Denis">
+        </section>
+        
+        <section id="About me" class="Font">
+            <h2 class="About_me">About Me</h2>
+            <p class="about">Hi, I'm Denis – UX/UI designer from Minsk.<br>
+            I'm interested in design and everything connected with it.</p>
+            <p class="about">I'm studying at courses "Web and mobile design<br>
+            interfaces" in IT-Academy.</p>
+            <p class="about">Ready to implement excellent projects<br>
+            with wonderful people.</p>
+        </section>
+
+        <section id="Skills">
+            <h2  class="skill">Skills</h2>
+            <p class="work">I work in such programs as</p>
+            <div class="skillbox">
+                <img  class="skillimg" src="./images/Ps.svg"     alt="adobe_photoshop">
+                <img  class="skillimg" src="./images/Ai.svg"     alt="adobe_illustrator">
+                <img  class="skillimg" src="./images/AF.svg"     alt="adobe_after_effect">
+                <img  class="skillimg" src="./images/Figma.svg"     alt="Figma">
+            </div>
+        </section>
+
+        <section id="Portfolio" class="portfolio">
+            <h2 class="portfolio_head">Portfolio</h2>
+            <img class="my_work" src="./images/Fashion-Store.png" alt="Fashion-Store">
+            <p class="work_text">Online fashion store - <br>
+            Homepage</p>
+            <img class="my_work" src="./images/reebok_web.png" alt="reebok_web">
+            <p class="work_text">Reebok Store - Concept</p>
+            <img class="my_work" src="./images/braun-landing.png" alt="braun-landing">
+            <p class="work_text">Braun Landing Page - Concept</p>
+        </section>
+
+        <section id="Contacts">
+            <h2 class="contacts_head">Contacts</h2>
+            <p class="chat">Want to know more or just chat? <br>
+            You are welcome!</p>
+            <button class="button"><p class="send">Send message</p></button>
+        
+            <div class="soc">
+            <img class="social" src="./images/linkedin.svg" alt="linkedin">
+            <img class="social" src="./images/instagram.svg" alt="instagram">
+            <img class="social" src="./images/behance.svg" alt="behance">
+            <img class="social" src="./images/dribbble.svg" alt="dribbble">
+            </div>
+
+        </section>
+        </div>
+
+    <footer>
+        <p class="like">Like me on <br>
+            LinkedIn, Instagram, Behance, <br>
+            Dribble</p>
+    </footer>
 </body>
 </html>
